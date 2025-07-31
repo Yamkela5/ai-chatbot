@@ -5,7 +5,7 @@ class ChatBot {
         this.chatBox = document.getElementById('chat-box');
         this.userInput = document.getElementById('user-input');
         this.sendBtn = document.getElementById('send-btn');
-        this.apiKey = ''; // Users will need to add their own API key
+        this.apiKey = 'AIzaSyDPGWdHD0l6zOeDpenjfDTAoMfsaiyYiro'; // Users will need to add their own API key
         // Updated API URL to use the current Gemini model
         this.apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
         
